@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./index.css">
+    <title>Registro</title>
+</head>
+<!--body class="bg-black flex flex-col items-center h-screen w-[100%]"-->
+<body class="bg-black">    
+        <!--nav class="flex flex-row text-white font-black gap-10 justify-end mx-10"-->
+        <nav class="flex flex-row text-white font-black gap-10 justify-end mx-10">    
+            <div>
+                <a href="./registro.html">Registro</a>
+            </div>
+            <div>
+                <a href="./sesion.html">Ingresar</a>
+            </div>
+        </nav>        
+        <header class="flex flex-row items-center  h-[200px] w-[100%] bg-black gap-6">        
+    
+            <section>
+                  <div>
+                      <img class="w-[300px] h-[300px]" src="./imagenes/logo.png" alt="">
+                  </div>
+            </section>      
+            <!--div class="text-white text-3xl items-center flex flex-row justify-between gap-20"-->
+            
+            <section>
+                  <div class="text-[#958A00] text-3xl font-black items-center flex flex-row justify-between">
+                    <img src="./imagenes/logoImagen.png" alt="" class="w-[50px] h-[50px]">
+                    <a href="./index.html"><h1>BRASA GRILL</h1></a>
+                  </dir>
+            </section>
+            <section>      
+                  <div class="text-[#958A00] text-3xl font-black items-center flex flex-row justify-between">
+                    <img src="./imagenes/IconoMenu.png" alt="" class="w-[40px] h-[40px]">
+                    <a href="./menu.html"><h1>LA CARTA</h1></a>
+                  </div>
+            </section>      
+            <section>      
+                  <div class="text-[#958A00] text-3xl font-black items-center flex flex-row justify-between">
+                    <img src="./imagenes/logoImagen.png" alt="" class="w-[50px] h-[50px]">
+                    <h1>CONTACTANOS</h1>
+                  </div>  
+            </section>
+            <!--section>      
+                <div class="text-white text-3xl items-center flex flex-row justify-between">
+                  <img src="./imagenes/logoImagen.png" alt="" class="w-[50px] h-[50px]">
+                  <h1>PERFIL</h1>
+                </div>  
+            </section-->
+            <!--section>      
+                <div class="text-[#958A00] text-3xl font-black items-center flex flex-row justify-between">
+                  <img src="./imagenes/carrito.png" alt="" class="w-[70px] h-[70px]">
+                  <h1>CARRITO</h1>
+                </div>  
+            </section-->
+        </header>
+    <main class=" bg-[url('./imagenes/brasas.jpg')] bg-cover bg-no-repeat flex flex-col items-center h-screen  w-full">
+        <section class="bg-black border-yellow-800 border-2 text-white flex flex-col border-solid border-black px-16 py-5 my-20 h-[700px] w-[50%]" id="seccion-1">
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre" class="bg-gray-800 px-2 py-2 my-3 outline-none">
+            
+            <label for="usuario">Usuario</label>
+            <input type="text" name="usuario" id="usuario" class="bg-gray-800 px-2 py-2 my-3 outline-none">
+
+            <label for="correo">Correo</label>
+            <input type="email" name="correo" id="correo" class="bg-gray-800 px-2 py-2 my-3 outline-none">
+            
+            <label for="telefono">Telefono</label>
+            
+            <input type="tel" name="telefono" placeholder ="000-000-00-00" id="telefono" class="bg-gray-800 px-2 py-2 my-3 outline-none">
+            
+            <label for="clave">Clave</label>
+            <p class="text-xs">- Debe contener 8 caracteres, Comenzar con un letra mayúscula, Tener al menos un número</p>
+            <!--p class="text-xs">- Comenzar con un letra mayúscula</p>
+            <p class="text-xs">- Tener al menos un número</p-->
+            <input type="password" name="clave" id="clave" class="bg-gray-800 px-2 py-2 my-3 outline-none">
+
+            <div class="w-[100%] h-[60px] flex flex-col justify-center items-center">
+                <button id="registrar" class="px-2 py-2 bg-black text-white border-white border-2 rounded-xl">Registrar</button>
+            </div>
+        </section>
+        <section id="seccion-2" class="w-[700px] h-[100px] rounded-lg pl-2 flex flex-col justify-center items-center gap-1 overflow-auto">
+            
+        </section>
+
+    </main>
+    <div class="linea"></div>
+    <footer class=" bg-black bg-no-repeat w-[100%] h-[150px] bg-bottom">    
+        <section class="text-[#958A00] text-[0.8rem] flex flex-row flex-wrap justify-center items-start gap-10 h-[150px]">
+            <!--div>
+                <img class="w-[300px] h-[300px]" src="./imagenes/logo.png" alt="">
+            </div-->
+            <div class="border-l-2 border-[#911D00] flex flex-col justify-evenly items-start gap-1 my-0.5 h-[150px] pl-10">
+                <h2>FORMA DE PAGO</h2>
+                <p>Pago movil</p>
+                <p>transferencia</p>
+                <p>Efectivo Bs/$</p>
+            </div>
+            <div class="border-l-2 border-[#911D00] flex flex-col justify-evenly items-start gap-1 my-0.5 h-[150px] pl-10">
+                <h2>CONTACTANOS</h2>
+                <p>0412-5948625</p>
+    
+            </div>
+            <div class="border-l-2 border-[#911D00] flex flex-col justify-evenly items-start gap-1 my-0.5 h-[150px] pl-10 ">
+                <h2>PICK-UP</h2>
+                <p>Domingo a Miercoles</p>
+                <P>12:00 PM a 12:00 AM</P>
+                <P>Jueves a Sabado</P>
+                <P>12:00 PM a 1:00 AM</P>
+            </div>
+            <div class="border-l-2 border-[#911D00] flex flex-col justify-evenly items-start gap-1 my-0.5 h-[150px] pl-10">
+                <h2>DELIVERY</h2>
+                <p>Domingo a Miercoles</p>
+                <p>12:00 PM a 11:00 AM</p>
+                <P>Jueves a Sabado</P>
+                <p>12:00 PM a 12:00 AM</p>
+            </div>
+            <div class="border-l-2 border-[#911D00] flex flex-col justify-evenly items-start gap-1 my-0.5 h-[150px] pl-10">
+                <h2>HORARIO</h2>
+                <p>Domingo a Miercoles</p>
+                <p>12:00 PM a 12:00 AM</p>
+                <p>Jueves a Sabado</p> 
+                <p>12:00 PM a 1:00 AM</p>
+            </div>
+        </section>
+        
+    </footer>
+    <div class="linea"></div>
+        <!-- Aqui se añaden los usuarios registrados -->
+        <!--section id="seccion-2" class="w-[700px] h-[100px] rounded-lg pl-2 flex flex-col justify-center items-center gap-1 overflow-auto">
+        
+        </section-->
+</body>
+<script src="registro.js"></script>
+</html>

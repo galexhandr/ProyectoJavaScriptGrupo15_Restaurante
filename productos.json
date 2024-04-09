@@ -1,0 +1,300 @@
+[
+  {
+    "id":1,
+    "imagen":"http://127.0.0.1:5500/JavaScript/ProyectoJavaScript/imagenes/Tomahawk.jpg", 
+    "nombre": "Tomahawk",
+    "descripcion": "Corte premium grillado en mantequilla especiada + 1 contorno",
+    "precio": 25,
+    "stock": 1
+  },
+
+  
+  {
+    "id":2,
+    "imagen":"http://127.0.0.1:5500/JavaScript/ProyectoJavaScript/imagenes/t-bone.jpg", 
+    "nombre": "T-bone Steak",
+    "descripcion": "Corte americano de res al grill + 1contorno",
+    "precio": 25,
+    "stock": 1
+  },
+
+  {
+    "id":3,
+    "imagen":"http://127.0.0.1:5500/JavaScript/ProyectoJavaScript/imagenes/PuntaTrasera.jpg", 
+    "nombre": "Punta trasera",
+    "descripcion": "Punta trasera al grill (para 2-3 personas) + 1 contorno",
+    "precio": 25,
+    "stock": 25
+  },
+
+  {
+    "id":4,
+    "imagen":"http://127.0.0.1:5500/JavaScript/ProyectoJavaScript/imagenes/MedallonesLomito.jpg", 
+    "nombre": "Medallones de lomito",
+    "descripcion": "Dos medallones de lomnito al grill evueltos en tocineta, glaseados y sellados en mantequilla, ajo y romero + 1 contorno + 1 ensalada",
+    "precio": 25,
+    "stock": 100
+  },
+
+  {
+    "id":5,
+    "imagen":"http://127.0.0.1:5500/JavaScript/ProyectoJavaScript/imagenes/rebeyes.jpg", 
+    "nombre": "Ribeyes",
+    "descripcion": "Corte de carne de res de la pate alta del solomo grillado + contorno + ensalda",
+    "precio": 25,
+    "stock": 100
+  },
+
+  { 
+    "id":6,
+    "imagen":"http://127.0.0.1:5500/JavaScript/ProyectoJavaScript/imagenes/AsadoTiras.jpg", 
+    "nombre": "Asado de tira",
+    "descripcion": "Corte de carne tomado del costillar de la res + contorno + ensalda",
+    "precio": 25,
+    "stock": 100
+  },
+  
+  {
+    "id":8,
+    "imagen":"http://127.0.0.1:5500/JavaScript/ProyectoJavaScript/imagenes/ParrillaCriolla.jpg", 
+    "nombre": "Parrilla Brasa Grill Pro",
+    "descripcion": "4 chirrascos de pollo, 4 churrascos de punta trasera, 500g de costillas ahumadas, 2 chorizos, 2 morcillas, 1 contorno, 1 ensalda rayada",
+    "precio": 25,
+    "stock": 100
+  },
+  
+  {
+    "id":9,
+    "imagen":"http://127.0.0.1:5500/JavaScript/ProyectoJavaScript/imagenes/ParrillaArgentina.jpg", 
+    "nombre": "Parrilla Argentina",
+    "descripcion": "Carne de res + pollo + chorizo + contorno + ensalada",
+    "precio": 25,
+    "stock": 100
+  },
+
+  {
+    "id":10,
+    "imagen":"http://127.0.0.1:5500/JavaScript/ProyectoJavaScript/imagenes/ParrillitaSalteada.jpg", 
+    "nombre": "Parrillita Salteada",
+    "descripcion": "Carne + pollo + vegetales + chorizo + yuca. (1 o 2 personas)",
+    "precio": 25,
+    "stock": 100
+  },
+
+  {
+    "id":11,
+    "imagen":"http://127.0.0.1:5500/JavaScript/ProyectoJavaScript/imagenes/ChurrascoPollo.jpg", 
+    "nombre": "Churrasco de Pollo al grill",
+    "descripcion": "Churrasco de pollo al grill + 1 contorno + 1 ensalada",
+    "precio": 25,
+    "stock": 100
+  },
+
+  {
+    "id":11,
+    "imagen":"http://127.0.0.1:5500/JavaScript/ProyectoJavaScript/imagenes/AlitasPolloBBQ.jpg", 
+    "nombre": "Alas BBQ",
+    "descripcion": "8 alas de pollo en salsa BBQ + papas fritas",
+    "precio": 25,
+    "stock": 100
+  },
+
+  {
+    "id":12,
+    "imagen":"http://127.0.0.1:5500/JavaScript/ProyectoJavaScript/imagenes/GordonBleu.jpg", 
+    "nombre": "Gorbon Bleu",
+    "descripcion": "Milanesa de pollo enrrollada con jamon y queso empanizada + contorno + ensalada",
+    "precio": 25,
+    "stock": 100
+  },
+
+  {
+    "id":13,
+    "imagen":"http://127.0.0.1:5500/JavaScript/ProyectoJavaScript/imagenes/CostillasBBQ.jpg", 
+    "nombre": "Costillas BBQ",
+    "descripcion": "Costillas ahumadas bañadas en salsa BBQ + 1 contorno + ensalada coleslaw",
+    "precio": 25,
+    "stock": 100
+  },
+  
+  {
+    "id":14,
+    "imagen":"http://127.0.0.1:5500/JavaScript/ProyectoJavaScript/imagenes/nuggets.jpg", 
+    "nombre": "Nuggets de pollo",
+    "descripcion": "6 unidades de nuggets de pollo + papas fritas",
+    "precio": 25,
+    "stock": 100
+  },
+  
+  {
+    "id":15,
+    "imagen":"http://127.0.0.1:5500/JavaScript/ProyectoJavaScript/imagenes/SandwichSolomo.jpg", 
+    "nombre": "Sandwich de solomo gratinado",
+    "descripcion": "Pan rustico, salsa birra, solomo premium al grill, quezo mozzarella y parmesano gratinado + papas fritas",
+    "precio": 25,
+    "stock": 100
+  },
+
+  {
+    "id":16,
+    "imagen":"http://127.0.0.1:5500/JavaScript/ProyectoJavaScript/imagenes/HamburguesaBrasaGrill.jpg", 
+    "nombre": "Hamburguesa Brasa Grill",
+    "descripcion": "Pan brioche, 160g de carne al grill, tocineta, lechuga, tomate, cebolla morada, salsa birra, + papas fritas",
+    "precio": 25,
+    "stock": 100
+  },
+
+  {
+    "id":17,
+    "imagen":"http://127.0.0.1:5500/JavaScript/ProyectoJavaScript/imagenes/HamburguesaPollo.jpg", 
+    "nombre": "Hamburguesa de pollo",
+    "descripcion": "Pan brioche, 150g de pollo crispy, cebolla, lechuga, tomate, salsa mayo spyce",
+    "precio": 25,
+    "stock": 100
+  },
+
+  {
+    "id":18,
+    "imagen":"http://127.0.0.1:5500/JavaScript/ProyectoJavaScript/imagenes/HamburguesaAhumada.jpg", 
+    "nombre": "Hamburguesa ahumada",
+    "descripcion": "Pan brioche, costilla de res ahumada, queso mozzarella gratinado, chimicurri",
+    "precio": 25,
+    "stock": 100
+  },
+
+  {
+    "id":19,
+    "imagen":"http://127.0.0.1:5500/JavaScript/ProyectoJavaScript/imagenes/PulePork.jpg", 
+    "nombre": "Pulle Pork",
+    "descripcion": "Pan brioche, cerdo desmenuzado, cebolla encurtida, ensalada coleslaw, + papas fritas",
+    "precio": 25,
+    "stock": 100
+  },
+
+  {
+    "id":20,
+    "imagen":"http://127.0.0.1:5500/JavaScript/ProyectoJavaScript/imagenes/PuntaBurger.jpg", 
+    "nombre": "Punta burguer",
+    "descripcion": "Pan brioche, 180g de punta trasera al grill, tocineta, vegetales, mozzarella, + papas fritas",
+    "precio": 25,
+    "stock": 100
+  },
+  
+  {
+    "id":21,
+    "imagen":"http://127.0.0.1:5500/JavaScript/ProyectoJavaScript/imagenes/EnsaladaCesar.jpg", 
+    "nombre": "Ensalada Cesar",
+    "descripcion": "Mezcla de lechugas y crutones de pan, aderezo cesar y tocineta",
+    "precio": 25,
+    "stock": 100
+  },
+  
+  {
+    "id":22,
+    "imagen":"http://127.0.0.1:5500/JavaScript/ProyectoJavaScript/imagenes/CesarPollo.jpg", 
+    "nombre": "Ensalada Cesar con Pollo",
+    "descripcion": "Mezcla de lechugas y crutones de pan, aderezo cesar y tocineta + supŕema de pollo",
+    "precio": 25,
+    "stock": 100
+  },
+
+  {
+    "id":23,
+    "imagen":"http://127.0.0.1:5500/JavaScript/ProyectoJavaScript/imagenes/EnsaladaBrasaGrill.jpg", 
+    "nombre": "Ensalada Brasa GRill",
+    "descripcion": "Mezcla de lechugas, aguacate, maiz. tomate, cebolla morada, palmito y aderezo italiano",
+    "precio": 25,
+    "stock": 100
+  },
+
+  {
+    "id":24,
+    "imagen":"http://127.0.0.1:5500/JavaScript/ProyectoJavaScript/imagenes/coleslaw.jpg", 
+    "nombre": "Coleslaw Brasa Grill",
+    "descripcion": "Mezcla de repollo verde y morado, zanahoria, piña, cebolla, cilantro y aderezo",
+    "precio": 25,
+    "stock": 100
+  },
+  
+  {
+    "id":25,
+    "imagen":"http://127.0.0.1:5500/JavaScript/ProyectoJavaScript/imagenes/EnsaladaVegetales.jpg", 
+    "nombre": "Vegetales salteado",
+    "descripcion": "Brocoli, coliflor, zanahoria y calabacin salteados en acite de oliva y pimienta negra",
+    "precio": 25,
+    "stock": 100
+  },
+  
+  {
+    "id":26,
+    "imagen":"http://127.0.0.1:5500/JavaScript/ProyectoJavaScript/imagenes/tequenos.jpg", 
+    "nombre": "Tequeños con queso",
+    "descripcion": "10 tequeños con queso + aderezo",
+    "precio": 25,
+    "stock": 100
+  },
+
+  {
+    "id":27,
+    "imagen":"http://127.0.0.1:5500/JavaScript/ProyectoJavaScript/imagenes/CarpaccioLomito.jpg", 
+    "nombre": "Carpaccio de lomito",
+    "descripcion": "Laminas de carne aderazada con especias acompañadas con pesto",
+    "precio": 25,
+    "stock": 100
+  },
+
+  {
+    "id":28,
+    "imagen":"http://127.0.0.1:5500/JavaScript/ProyectoJavaScript/imagenes/tartar.jpg", 
+    "nombre": "Tartar ",
+    "descripcion": "Carne de res troceadas en cubos coronadas con aguacate aderezadas con especias",
+    "precio": 25,
+    "stock": 100
+  },
+
+  {
+    "id":29,
+    "imagen":"http://127.0.0.1:5500/JavaScript/ProyectoJavaScript/imagenes/yuca.jpeg", 
+    "nombre": "Yuca",
+    "descripcion": "Racion de yuca sancochada",
+    "precio": 25,
+    "stock": 100
+  },
+
+  {
+    "id":30,
+    "imagen":"http://127.0.0.1:5500/JavaScript/ProyectoJavaScript/imagenes/PapasBravas.jpg", 
+    "nombre": "Papas bravas",
+    "descripcion": "Papas salteadas, en matequilla, ajo, romero y salsa brava",
+    "precio": 25,
+    "stock": 100
+  },
+
+  {
+    "id":31,
+    "imagen":"http://127.0.0.1:5500/JavaScript/ProyectoJavaScript/imagenes/PapasFritas.jpg", 
+    "nombre": "Papas fritas",
+    "descripcion": "300g de papas fritas",
+    "precio": 25,
+    "stock": 100
+  },
+  
+  {
+    "id":33,
+    "imagen":"http://127.0.0.1:5500/JavaScript/ProyectoJavaScript/imagenes/chorizo.jpg", 
+    "nombre": "Chorizo ",
+    "descripcion": "Unidad de chorizo montserratina al grill (ahumado o ajo)",
+    "precio": 25,
+    "stock": 100
+  },
+
+    {
+    "id":34,
+    "imagen":"http://127.0.0.1:5500/JavaScript/ProyectoJavaScript/imagenes/morcilla.jpg", 
+    "nombre": "Morcilla",
+    "descripcion": "Unidad de morcilla montserratina al grill",
+    "precio": 25,
+    "stock": 100
+  }
+
+]

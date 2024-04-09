@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./index.css">
+    <title>Proyecto JS</title>
+</head>
+
+<!--body class="bg-gradient-to-r from-black to-gray-800"-->
+<body class="bg-black">    
+    <nav class="flex flex-row text-white font-black gap-10 justify-end mx-10">
+        <div>
+            <a href="./registro.html">Registro</a>
+        </div>
+        <div>
+            <a href="./sesion.html">Ingresar</a>
+        </div>
+        <div>
+            <a href="#" id="limpiar">Limpiar</a>
+        </div>
+    </nav>        
+    <header class="flex flex-row items-center h-[200px] w-[100%] bg-black gap-6">        
+
+        <section>
+              <div>
+                  <img class="w-[300px] h-[300px]" src="./imagenes/logo.png" alt="">
+              </div>
+        </section>      
+        <!--div class="text-white text-3xl items-center flex flex-row justify-between gap-20"-->
+        
+        <section>
+              <div class="text-[#958A00] text-3xl font-black items-center flex flex-row justify-between">
+                <img src="./imagenes/logoImagen.png" alt="" class="w-[50px] h-[50px]">
+                <a href="./index.html"><h1>BRASA GRILL</h1></a>
+              </dir>
+        </section>
+        <section>      
+              <div class="text-[#958A00] text-3xl font-black items-center flex flex-row justify-between">
+                <img src="./imagenes/IconoMenu.png" alt="" class="w-[40px] h-[40px]">
+                <a href="./menu.html"><h1>LA CARTA</h1></a>
+              </div>
+        </section>      
+        <section>      
+              <div class="text-[#958A00] text-3xl font-black items-center flex flex-row justify-between">
+                <img src="./imagenes/logoImagen.png" alt="" class="w-[50px] h-[50px]">
+                <h1>CONTACTANOS</h1>
+              </div>  
+        </section>
+        <section id="admin" class="oculto">      
+            <div class="text-[#958A00] text-3xl font-black items-center flex flex-row justify-between">
+              <img src="./imagenes/admin.png" alt="" class="w-[40px] h-[40px]">
+              <a href="./administracion.html"><h1>ADMINISTRACION</h1></a>
+            </div>  
+        </section>
+        <!--section>      
+            <div class="text-[#958A00] text-3xl font-black items-center flex flex-row justify-between">
+              <img src="./imagenes/carrito.png" alt="" class="w-[70px] h-[70px]">
+              <a href="#">
+                <h1 id="abrir">CARRITO</h1>
+            </a>
+            </div>  
+        </section-->
+    </header>
+    <section class="contenedor">      
+            <img class="w-auto h-[400px]" src="./imagenes/trasfondo-carne-res-parrilla2.jpg" alt="">
+            <div class="centrado"><a href="./menu.html" alt="">¡Conoce nuestro menú!</div></a>
+     </section>
+    <main >
+        <!--video id = "video" autoplay loop> 
+            <source src="./parrilla.mp4" type="video/mp4">
+            Tu navegador no admite el elemento <code>video</code>.
+        </video-->
+        
+        <section class="bg-black to-black text-white flex flex-row  justify-evenly place-items-center h-[500px]">
+             <div class="w-auto h-auto">
+                <img class="w-[400px] h-[300px]" src="./imagenes/CorteCarne.jpg" alt="">
+            </div>
+            <div >
+                <h1 class="text-[6rem]">Los mejores</h1> 
+                <h1 class="text-[8rem]">CORTES</h1>
+            </div>
+        </section>
+        
+        <section class="bg-black text-white flex flex-row  justify-evenly place-items-center h-[500px]">
+            <div>
+                <h1 class="text-[6rem]">La mejor</h1> 
+                <h1 class="text-[8rem]">ATENCIÓN</h1>
+            </div>
+            <div class="w-auto h-auto">
+               <img class="w-[400px] h-[400px]" src="./imagenes/mesera.png" alt="">
+           </div>
+           
+           
+       </section>
+       
+       <!--section class=" bg-black flex flex-col text-white place-items-center w-[100%] h-[400px] mt-20">
+        <div>
+            <a href="./menu.html"><img src="./imagenes/Menu.png" alt=""></a>
+        </div>
+       </section-->
+        
+    </main>
+    <!--div class="linea"></div-->
+    <!--footer class="bg-no-repeat place-content-center w-[80%] h-[150px] bg-bottom"-->
+    <div class="linea"></div>
+    <footer class=" bg-black bg-no-repeat w-[100%] h-[150px] bg-bottom">    
+        <section class="text-[#958A00] text-[0.8rem] flex flex-row flex-wrap justify-center items-start gap-10 h-[150px]">
+            
+            <div class="border-l-2 border-[#911D00] flex flex-col justify-evenly items-start gap-1 my-0.5 h-[150px] pl-10">
+                <h2>FORMA DE PAGO</h2>
+                <p>Pago movil</p>
+                <p>transferencia</p>
+                <p>Efectivo Bs/$</p>
+            </div>
+            <div class="border-l-2 border-[#911D00] flex flex-col justify-evenly items-start gap-1 my-0.5 h-[150px] pl-10">
+                <h2>CONTACTANOS</h2>
+                <p>0412-5948625</p>
+    
+            </div>
+            <div class="border-l-2 border-[#911D00] flex flex-col justify-evenly items-start gap-1 my-0.5 h-[150px] pl-10 ">
+                <h2>PICK-UP</h2>
+                <p>Domingo a Miercoles</p>
+                <P>12:00 PM a 12:00 AM</P>
+                <P>Jueves a Sabado</P>
+                <P>12:00 PM a 1:00 AM</P>
+            </div>
+            <div class="border-l-2 border-[#911D00] flex flex-col justify-evenly items-start gap-1 my-0.5 h-[150px] pl-10">
+                <h2>DELIVERY</h2>
+                <p>Domingo a Miercoles</p>
+                <p>12:00 PM a 11:00 AM</p>
+                <P>Jueves a Sabado</P>
+                <p>12:00 PM a 12:00 AM</p>
+            </div>
+            <div class="border-l-2 border-[#911D00] flex flex-col justify-evenly items-start gap-1 my-0.5 h-[150px] pl-10">
+                <h2>HORARIO</h2>
+                <p>Domingo a Miercoles</p>
+                <p>12:00 PM a 12:00 AM</p>
+                <p>Jueves a Sabado</p> 
+                <p>12:00 PM a 1:00 AM</p>
+            </div>
+        </section> 
+        <!--section class="bg-[url('./imagenes/madera2.jpg')] bg-cover text-black text-[1rem] flex flex-row flex-wrap justify-around gap-5 content-center h-[300px]">
+        
+            <div class="text-white font-bold text-xl flex flex-col justify-evenly items-center w-[200px] h-[300px]">
+                <h2>FORMA DE PAGO</h2>
+                <p>Pago movil</p>
+                <p>transferencia</p>
+                <p>Efectivo Bs/$</p>
+            </div>
+            <div class="text-white font-bold text-xl flex flex-col justify-evenly items-center w-[200px]  h-[300px] ">
+                <h2>CONTACTANOS</h2>
+                <p>0412-5948625</p>
+    
+            </div>
+            <div class="text-white font-bold text-xl flex flex-col justify-evenly items-center w-[200px] h-[300px] ">
+                <h2>PICK-UP</h2>
+                <p>Domingo a Miercoles</p>
+                <P>12:00 PM a 12:00 AM</P>
+                <P>Jueves a Sabado</P>
+                <P>12:00 PM a 1:00 AM</P>
+            </div>
+            <div class="text-white font-bold text-xl flex flex-col justify-evenly items-center w-[200px] h-[300px] ">
+                <h2>DELIVERY</h2>
+                <p>Domingo a Miercoles</p>
+                <p>12:00 PM a 11:00 AM</p>
+                <P>Jueves a Sabado</P>
+                <p>12:00 PM a 12:00 AM</p>
+            </div>
+            <div class="text-white font-bold text-xl text-black font-bold text-2xl flex flex-col justify-evenly items-center w-[200px] h-[300px]">
+                <h2>HORARIO</h2>
+                <p>Domingo a Miercoles</p>
+                <p>12:00 PM a 12:00 AM</p>
+                <p>Jueves a Sabado</p> 
+                <p>12:00 PM a 1:00 AM</p>
+            </div>
+        </section-->
+        
+    </footer>
+    <div class="linea"></div>
+</body>
+<script src="./index.js">
+
+</script>
+</html>

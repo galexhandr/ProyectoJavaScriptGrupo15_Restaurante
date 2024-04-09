@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./index.css">
+    <title>Document</title>
+</head>
+<body class="bg-black">    
+    <!--nav class="flex flex-row text-white font-black gap-10 justify-end mx-10"-->
+    <nav class="flex flex-row text-white font-black gap-10 justify-end mx-10">
+        <div>
+            <a href="./index.html">Inicio</a>
+        </div>
+        <div>
+            <a href="./registro.html">Registro</a>
+        </div>
+        <div>
+            <a href="./sesion.html">Ingresar</a>
+        </div>
+    </nav>        
+    <header class="flex flex-row justify-center  h-[250px] w-[100%] bg-black">        
+        <img class="w-[300px] h-[300px]" src="./imagenes/logo.png" alt="">
+        <!--section>
+            <div>  
+            </div>  
+        </section>      
+        <!--div class="text-white text-3xl items-center flex flex-row justify-between gap-20"-->
+        
+        <!--section>
+              <div class="text-[#958A00] text-3xl font-black items-center flex flex-row justify-between">
+                <img src="./imagenes/logoImagen.png" alt="" class="w-[50px] h-[50px]">
+                <a href="./index.html"><h1>BRASA GRILL</h1></a>
+              </dir>
+        </section>
+        <section>      
+              <div class="text-[#958A00] text-3xl font-black items-center flex flex-row justify-between">
+                <img src="./imagenes/IconoMenu.png" alt="" class="w-[40px] h-[40px]">
+                <a href="./menu.html"><h1>LA CARTA</h1></a>
+              </div>
+        </section>      
+        <section>      
+              <div class="text-[#958A00] text-3xl font-black items-center flex flex-row justify-between">
+                <img src="./imagenes/logoImagen.png" alt="" class="w-[50px] h-[50px]">
+                <h1>CONTACTANOS</h1>
+              </div>  
+        </section>
+        <!--section>      
+            <div class="text-white text-3xl items-center flex flex-row justify-between">
+              <img src="./imagenes/logoImagen.png" alt="" class="w-[50px] h-[50px]">
+              <h1>PERFIL</h1>
+            </div>  
+        </section-->
+        <!--section>      
+            <div class="text-[#958A00] text-3xl font-black items-center flex flex-row justify-between">
+              <img src="./imagenes/carrito.png" alt="" class="w-[70px] h-[70px]">
+              <h1>CARRITO</h1>
+            </div>  
+        </section-->
+    </header>
+    <main>
+        <main class=" bg-black bg-cover bg-no-repeat flex flex-col items-center h-auto  w-full">
+            <section class="bg-black border-yellow-800 border-2 text-white flex flex-col items-center border-black px-5 py-5 rounded h-[auto] w-[350px]" id="seccion-1">
+                <label for="NombreUsuario">Usuario</label>
+                <input type="text" name="nombre" id="usuario" class="bg-gray-800 px-2 py-2 my-3 outline-none">
+                <label for="clave">Clave</label>
+                <input type="password" name="clave" id="clave" class="bg-gray-800 px-2 py-2 my-3 outline-none">
+    
+                <div class="w-[100%] h-[60px] flex flex-col justify-center items-center">
+                    <button id="ingresar" class="px-2 py-2 bg-black text-white border-white border-2 rounded-xl">Ingresar</button>
+                </div>
+            </section>
+    
+    </main>
+</body>
+<script src="sesion.js"></script>
+</html>
